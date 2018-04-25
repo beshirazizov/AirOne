@@ -1,0 +1,391 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-serif;}
+ul{list-style-type: none;}
+a{text-decoration: none;}
+input:focus, textarea:focus, button:focus {outline:none;}
+.first{
+    height: 700px;
+    background-image:
+    linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),
+    url(img/sierra.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.first .inner {
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    position: relative;
+}
+.first .inner div{
+    height: 100px;
+    border-bottom: 1px solid white;
+}
+.first .navbar{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 5%;
+}
+.first .navbar li{
+    float: left;
+}
+.first .navbar li a{
+    font-size: 90%;
+    padding: 10px 15px;
+    display: inline-block;
+    color: white;
+}
+.first .navbar li a:hover{
+    color: black;
+    transition: 0.3s;
+}
+.first .inner div h1{
+    color: white;
+    line-height: 100px;
+    font-size: 3em;
+
+}
+.first .inner div span {
+    color: rgb(117, 161, 255);
+}
+.first .inner #h1 {
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+.first .inner p{
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.first .inner #a1{
+    color: black;
+    border: 0px solid white;
+    padding: 15px 30px;
+    width: 20%;
+    background-color: white; 
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+}
+.first .inner #a1:hover{
+    background: black;
+    color: white;
+    transition: 0.5s;
+}
+.second {
+    height: 700px;
+}
+.second .inner {
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    position: relative;
+}
+.second .inner #h1{
+    text-align: center;
+    margin-top: 60px;
+}
+.second .inner #p1 {
+    text-align: center;
+    margin: 30px auto;
+    border: 0px solid white;
+    width: 50%;
+    color: gray;
+}
+.second .inner div{
+    height: 450px;
+    width: 32%;
+
+    display: inline-block;
+    position: relative;
+}
+.second #middle {
+    margin:40px 1%;
+}
+.second .inner div h1{
+    font-size: 1.7em;
+    margin-top: 10px;
+}
+.second .inner div span {
+    color: gray;
+    font-size: 0.7em;
+    padding-left: 20px;
+}
+.second .inner div p{
+    margin-top: 10px;
+    color: gray;
+}
+.second .inner div a {
+    color: rgb(80, 80, 80);
+    display: inline-block;
+    margin-top: 20px;
+}
+.second .inner div a:hover{
+    color: rgb(163, 136, 0);
+}
+.third{
+    height: 600px;
+    position: relative;
+}
+.third img{
+    margin-top: 50px;
+}
+.third #img2{
+    position: absolute;
+    right: 0px;
+}
+.fourth{
+    height: 600px;
+    background-color: rgb(241, 241, 241);
+    position: relative;
+}
+.fourth .inner {
+    width: 70%;
+    height: 500px;
+    position: absolute;
+    top:50px;
+    left: 15%;
+}
+.fourth .inner div {
+    width: 33%;
+    height: 250px;
+    display: inline-block;
+    margin: 2px 0px;
+    background-color: white;
+}
+.fourth .inner div span{
+    font-size: 2.5em;
+    margin-left: 10%;
+    margin-top: 40px;
+    display: block;
+    color: gray;
+}
+.fourth .inner div h1{
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+.fourth .inner div p{
+    margin-left: 10%;
+    margin-top: 25px;
+    font-size: 1em;
+    border: 0px solid white;
+    width: 80%;
+    color: gray;
+}
+.fourth .inner div:hover{
+    background-color: #17BED1;
+    transition: 0.3s;
+}
+.fourth .inner div:hover h1, .fourth .inner div:hover p, .fourth .inner div:hover span {
+    color: white;
+    transition: 0.3s;
+}
+.fifth{
+    height: 250px;
+    background-color: #B9BCC5;
+}
+.fifth h1{
+    text-align: center;
+    color:white;
+    padding-top: 70px;
+}
+.fifth p {
+    border: 0px solid black;
+    color: white;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.sixth {
+    height: 600px;
+}
+.sixth .inner {
+    width: 70%;
+    height: 600px;
+    margin: auto;
+}
+.sixth .inner div {
+    width:33.3%;
+    height: 250px;
+    float: left;
+    border: 2px solid white;
+}
+.sixth .inner #div1 {
+    width:66.6%;
+    background: url(img/61.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top:50px;
+}
+.sixth .inner #div2 {
+    background: url(img/62.jpg);
+    background-position: center;
+    margin-top:50px;
+}
+.sixth .inner #div3 {
+    background: url(img/63.jpg);
+    background-position: center;
+}
+.sixth .inner #div4 {
+    background: url(img/64.jpg);
+    background-position: center;
+}
+.sixth .inner #div5 {
+    background: url(img/65.jpg);
+    background-position: center;
+}
+.seventh {
+    height: 700px;
+    background-color: rgb(241, 241, 241);
+}
+.seventh .inner {
+    height: 700px;
+    width: 70%;
+    margin: auto;
+}
+.seventh .inner div {
+    width: 33%;
+    height: 500px;
+    background-color: white;
+    display: inline-block;
+    margin-top: 100px;
+}
+.seventh .inner div #span1 {
+    font-size: 2.5em;
+    color: gray;
+    display: block;
+    margin-left: 10%; 
+    margin-top: 80px;
+}
+.seventh .inner div h1 {
+    font-size: 1.5em;
+    margin: 25px 10%;   
+}
+.seventh .inner div p{
+    font-size: 0.9em;
+    color: gray;
+    margin: 20px 10%;
+}
+.seventh .inner div .span2 {
+    color: #17BED1;
+    font-weight: 900;
+    font-size: 1.3em;
+}
+.seventh .inner div a {
+    font-size: 0.9em;
+    color: black;
+    border: 0px solid black;
+    background-color: #F3F4F5;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    width: 40%;
+    margin: 30px 10%;
+}
+.seventh .inner div a:hover {
+    color: white;
+    background-color: #17BED1;
+    transition: 0.3s;
+}
+.eighth {
+    height: 300px;
+    position: relative;
+}
+.eighth h1 {
+    margin-top: 50px;
+    margin-left: 15%;
+    color: rgb(73, 73, 73);
+}
+.eighth p {
+    border: 0px solid black;
+    width: 55%;
+    margin-top: 50px;
+    margin-left: 18%;
+    color: rgb(128, 128, 128);    
+}
+.eighth #sp1 {
+    font-size: 5em;
+    color: #17BED1;
+    position: absolute;
+    top: 75px;
+    left: 15%;
+}
+#niya{
+    font-weight: 900;
+}
+.nineth{
+    height: 570px;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+.nineth p{
+    text-align: center;
+    line-height: 70px;
+    font-size: 1.2em;
+}
+.tenth{
+    height: 300px;
+    position: relative;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+.tenth .inner {
+    height: 300px;
+    width: 70%;
+    margin: auto;
+}
+.tenth .navbar{
+    display: inline-block;
+    position: absolute;
+    top: 19%;
+}
+.tenth .navbar li a{
+    display: inline-block;
+    padding: 10px 15px;
+    color: rgb(126, 125, 125);
+    font-weight: 700;
+}
+.tenth .navbar li a:hover{
+    color: #17BED1;
+    transition: 0.3s;
+}
+.tenth #navbar2{
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+.tenth #navbar3{
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+.eleventh{
+    height: 100px;
+    position: relative;
+}
+.eleventh h1{
+    display: inline-block;
+    line-height: 100px;
+    margin-left: 15%;
+    color: #5A5D61;
+    font-size: 1.8em;
+}
+.eleventh p{
+    display: inline-block;
+    line-height: 100px;
+    position: absolute;
+    right: 15%;
+    color: #5A5D61;
+}
+.eleventh #sp1 {
+    color: #17BED1;
+}
+.eleventh #sp2 {
+    font-weight: 900;
+}
